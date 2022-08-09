@@ -9,4 +9,9 @@ Button.defaultProps = {
   color: 'steelblue'
 }
 
+Button.propTypes = {
+  color: PropTypes.string,
+  text: PropTypes.string,
+}
+
 export default Button
